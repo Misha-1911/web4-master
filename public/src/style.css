@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.container {
+  margin: auto;
+  box-sizing: border-box;
+  width: 75%;
+  height: 75vh;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+.login {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.288);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.messages {
+  width: 100%;
+  height: 80%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.messages > div {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+}
